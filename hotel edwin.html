@@ -1,0 +1,377 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Edwin Syariah Hotel - Experience premium halal hospitality with modern comfort and Islamic values. Book your stay today!">
+    <meta name="keywords" content="halal hotel, syariah hotel, Islamic hospitality, halal accommodation, prayer facilities">
+    <meta name="author" content="Edwin Syariah Hotel">
+    <meta property="og:title" content="Edwin Syariah Hotel - Premium Halal Hospitality">
+    <meta property="og:description" content="Experience premium halal hospitality with modern comfort and Islamic values">
+    <meta property="og:type" content="website">
+    <title>Edwin Syariah Hotel - Premium Halal Hospitality</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" defer></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <i class="fas fa-mosque"></i>
+                Edwin Syariah
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#rooms">Rooms</a></li>
+                <li><a href="#facilities">Facilities</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="#booking" class="book-btn">Book Now</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Edwin Syariah Hotel</h1>
+            <p>Experience Premium Halal Hospitality in the Heart of the City</p>
+            <div class="hero-buttons">
+                <a href="#booking" class="btn-primary">Reserve Your Stay</a>
+                <a href="#rooms" class="btn-secondary">Explore Rooms</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="facilities">
+        <div class="container">
+            <div class="section-title animate-on-scroll">
+                <h2>Why Choose Edwin Syariah?</h2>
+                <p>Discover the perfect blend of modern comfort and Islamic values</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card animate-on-scroll">
+                    <div class="feature-icon">
+                        <i class="fas fa-mosque"></i>
+                    </div>
+                    <h3>Prayer Facilities</h3>
+                    <p>Dedicated prayer rooms with Qibla direction, clean ablution areas, and prayer mats in every room</p>
+                </div>
+                <div class="feature-card animate-on-scroll">
+                    <div class="feature-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>Halal Dining</h3>
+                    <p>100% halal certified restaurant serving authentic Indonesian and international cuisine</p>
+                </div>
+                <div class="feature-card animate-on-scroll">
+                    <div class="feature-icon">
+                        <i class="fas fa-swimming-pool"></i>
+                    </div>
+                    <h3>Separate Swimming</h3>
+                    <p>Gender-segregated swimming pools and spa facilities for your comfort and privacy</p>
+                </div>
+                <div class="feature-card animate-on-scroll">
+                    <div class="feature-icon">
+                        <i class="fas fa-wifi"></i>
+                    </div>
+                    <h3>Modern Amenities</h3>
+                    <p>High-speed WiFi, smart TV, air conditioning, and 24/7 room service</p>
+                </div>
+                <div class="feature-card animate-on-scroll">
+                    <div class="feature-icon">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </div>
+                    <h3>Prime Location</h3>
+                    <p>Strategic location near mosques, halal restaurants, and major tourist attractions</p>
+                </div>
+                <div class="feature-card animate-on-scroll">
+                    <div class="feature-icon">
+                        <i class="fas fa-concierge-bell"></i>
+                    </div>
+                    <h3>24/7 Service</h3>
+                    <p>Round-the-clock front desk, concierge service, and multilingual staff</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rooms Section -->
+    <section class="rooms" id="rooms">
+        <div class="container">
+            <div class="section-title animate-on-scroll">
+                <h2>Comfortable Accommodations</h2>
+                <p>Choose from our variety of well-appointed rooms</p>
+            </div>
+            <div class="rooms-grid">
+                <div class="room-card animate-on-scroll">
+                    <div class="room-image-slider">
+                        <div class="slider-container">
+                            <img src="attached_assets/IMG_20250529_142445.jpg" alt="Edwin Hotel Exterior" class="slider-image active">
+                            <img src="attached_assets/IMG_20250529_142459.jpg" alt="Hotel Courtyard" class="slider-image">
+                            <img src="attached_assets/IMG_20250529_142537.jpg" alt="Standard Room Interior" class="slider-image">
+                            <img src="attached_assets/IMG_20250529_142615.jpg" alt="Hotel Lobby" class="slider-image">
+                            <img src="attached_assets/IMG_20250529_142648.jpg" alt="Hotel Restaurant Area" class="slider-image">
+                        </div>
+                        <button class="slider-btn prev-btn" onclick="changeSlide('standard', -1)">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="slider-btn next-btn" onclick="changeSlide('standard', 1)">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                        <div class="slider-dots">
+                            <span class="dot active" onclick="currentSlide('standard', 1)"></span>
+                            <span class="dot" onclick="currentSlide('standard', 2)"></span>
+                            <span class="dot" onclick="currentSlide('standard', 3)"></span>
+                            <span class="dot" onclick="currentSlide('standard', 4)"></span>
+                            <span class="dot" onclick="currentSlide('standard', 5)"></span>
+                        </div>
+                    </div>
+                    <div class="room-content">
+                        <h3>Standard Room</h3>
+                        <div class="room-price">$45/night</div>
+                        <ul class="room-features">
+                            <li><i class="fas fa-check"></i> Queen size bed</li>
+                            <li><i class="fas fa-check"></i> Private bathroom</li>
+                            <li><i class="fas fa-check"></i> Prayer mat & Qibla direction</li>
+                            <li><i class="fas fa-check"></i> Free WiFi</li>
+                            <li><i class="fas fa-check"></i> Smart TV</li>
+                        </ul>
+                        <a href="#booking" class="btn-primary" style="width: 100%; text-align: center;">Book Now</a>
+                    </div>
+                </div>
+                <div class="room-card animate-on-scroll">
+                    <div class="room-image">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="room-content">
+                        <h3>Deluxe Room</h3>
+                        <div class="room-price">$65/night</div>
+                        <ul class="room-features">
+                            <li><i class="fas fa-check"></i> King size bed</li>
+                            <li><i class="fas fa-check"></i> Spacious room (35m²)</li>
+                            <li><i class="fas fa-check"></i> Sitting area</li>
+                            <li><i class="fas fa-check"></i> Mini refrigerator</li>
+                            <li><i class="fas fa-check"></i> City view</li>
+                        </ul>
+                        <a href="#booking" class="btn-primary" style="width: 100%; text-align: center;">Book Now</a>
+                    </div>
+                </div>
+                <div class="room-card animate-on-scroll">
+                    <div class="room-image">
+                        <i class="fas fa-crown"></i>
+                    </div>
+                    <div class="room-content">
+                        <h3>Family Suite</h3>
+                        <div class="room-price">$95/night</div>
+                        <ul class="room-features">
+                            <li><i class="fas fa-check"></i> 2 bedrooms</li>
+                            <li><i class="fas fa-check"></i> Living room</li>
+                            <li><i class="fas fa-check"></i> Kitchenette</li>
+                            <li><i class="fas fa-check"></i> Up to 6 guests</li>
+                            <li><i class="fas fa-check"></i> Premium amenities</li>
+                        </ul>
+                        <a href="#booking" class="btn-primary" style="width: 100%; text-align: center;">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-title animate-on-scroll">
+                <h2>What Our Guests Say</h2>
+                <p>Read reviews from our satisfied guests</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card animate-on-scroll">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Excellent service and truly halal experience. The prayer facilities are well-maintained and the food is delicious. Will definitely come back!"</p>
+                    <div class="testimonial-author">- Ahmed Hassan, Malaysia</div>
+                </div>
+                <div class="testimonial-card animate-on-scroll">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Perfect for Muslim families. The separate swimming facilities and halal restaurant made our stay very comfortable. Highly recommended!"</p>
+                    <div class="testimonial-author">- Fatima Al-Zahra, UAE</div>
+                </div>
+                <div class="testimonial-card animate-on-scroll">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Clean, comfortable, and respectful of Islamic values. The staff is very helpful and the location is convenient. Great value for money!"</p>
+                    <div class="testimonial-author">- Omar Abdullah, Pakistan</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Booking -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-title animate-on-scroll">
+                <h2>Contact & Booking</h2>
+                <p>Get in touch with us or make a reservation</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info animate-on-scroll">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>Jl. Malioboro No. 123, Yogyakarta, Indonesia</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+62 274 123 4567</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@edwinsyariah.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Check-in / Check-out</h4>
+                            <p>2:00 PM / 12:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="booking-form animate-on-scroll" id="booking">
+                    <h3 style="margin-bottom: 1.5rem; color: #2c5530;">Quick Booking</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="checkin">Check-in Date</label>
+                            <input type="date" id="checkin" name="checkin" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="checkout">Check-out Date</label>
+                            <input type="date" id="checkout" name="checkout" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="guests">Number of Guests</label>
+                            <select id="guests" name="guests" required>
+                                <option value="">Select guests</option>
+                                <option value="1">1 Guest</option>
+                                <option value="2">2 Guests</option>
+                                <option value="3">3 Guests</option>
+                                <option value="4">4 Guests</option>
+                                <option value="5">5+ Guests</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="room-type">Room Type</label>
+                            <select id="room-type" name="room-type" required>
+                                <option value="">Select room type</option>
+                                <option value="standard">Standard Room</option>
+                                <option value="deluxe">Deluxe Room</option>
+                                <option value="family">Family Suite</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <button type="submit" class="btn-primary" style="width: 100%;">Book Now</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <i class="fas fa-mosque"></i>
+                        Edwin Syariah
+                    </div>
+                    <p>Experience premium halal hospitality with modern comfort and Islamic values.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#rooms">Rooms</a></li>
+                        <li><a href="#facilities">Facilities</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Room Service</a></li>
+                        <li><a href="#">Halal Restaurant</a></li>
+                        <li><a href="#">Prayer Facilities</a></li>
+                        <li><a href="#">Airport Transfer</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Jl. Malioboro No. 123, Yogyakarta</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+62 274 123 4567</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>info@edwinsyariah.com</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Edwin Syariah Hotel. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
